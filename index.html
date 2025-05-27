@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #1e90ff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            color: #fff; 
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .photo-frame {
+            border-radius: 50%;
+            border: 5px solid #fff;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            max-width: 50vw;
+            max-height: 50vw;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info {
+            margin: 20px 0;
+            text-align: left;
+        }
+        .info a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .info a:hover {
+            color: #e6f2ff;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            .photo-frame {
+                width: 150px;
+                height: 150px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Привет, я Чепрасов Михаэль!</h1>
+        
+        <div class="photo-container">
+            <div class="photo-frame">
+                <img src="C:\Users\chepr\Documents\Работы\ОСПО\ЛР3\og.png" alt="Логотип">
+            </div>
+        </div>
+        
+        <div class="info">
+            <h2>Обо мне</h2>
+            <p>Учусь в МГТУ "СТАНКИН" на 3-ем курсе бакалавриата в группе АДБ-22-07</p>
+            
+            
+            <h2>Контакты</h2>
+            <p>Email: <a href="mailto:cheprasov-03@mail.ru">cheprasov-03@mail.ru</a></p>
+        </div>
+      
+    </div>
+</body>
+</html>
